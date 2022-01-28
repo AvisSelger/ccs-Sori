@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/* * {
+  padding: 0;
+  m0
+} */
+
+body {
+  background-color: rgb(226, 207, 164);
+  color: rgb(0, 0, 0);
+  
+  font-size: 22px;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif; 
+
+  /*font: normal 22px 'Raleway', sans-serif;*/
+
+  /*font-family: Arial, Helvetica, sans-serif;*/
+
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 0, 0);
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+.avatar {
+  width: 300px;
+  border-radius: 50px;
+  box-shadow: 8px 8px 22px rgba(0, 0, 0, 40);
+}
+
+.info {
+margin-bottom: 30px;
+display: flex;
+
+}
+
+@media (max-widht: 600px) {
+  .info {
+    text-align: center;
+    display: block;
+
+  }
+}
+
+
+.info-text {
+ margin-left: 40px;
+ }
+  
+.info-text h4{
+  margin-bottom: 5px;
+}
+
+
+.info p {
+  color: darkgoldenrod;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  /*text-transform: uppercase; */
+  /*letter-spacing: 6px;*/
+  /*word-spacing: 30px;*/
+}
+
+/* Box Model */
+.container{
+  max-width: 750px;
+  margin:  auto;
+  padding-top: 20px;
+}
+
+/* .social {
+  background: darkorange;
+  padding: 16px;
+  border: 6px solid rgb(153, 48, 0);
+  border-bottom-style: dotted;
+  border-top-width: 20px;
+
+  margin-top: 10px;
+  margin-right: 60px;
+  margin-bottom: 15px;
+  margin-left: 5px; */
+
+/* } */
+
+/* .box-model >div {
+  float:  left;
+  background: rgb(73, 58, 58);
+  height: 300px;
+  border: 5px solid green;
+  width: 25%;
+  box-sizing: border-box; */
+
+/* } */
+.bg-darckgreen {
+  background: rgb(165, 131, 18);
+}
+
+.bg-green {
+  background: rgb(125, 168, 6);
+}
+
+.bg-yellow {
+  background: rgb(255, 255, 83);
+}
+
+.card {
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+.youtube {
+  width: 220px;
+  border-radius: 50px;
+  box-shadow: 8px 8px 22px rgba(0, 0, 0, 40);
+  
+}
+
+.card h2 {
+  margin-bottom: 15px;
+}
+
+.list {
+  padding: 0 15px;
+}
+
+.list li {
+  color: cornsilk;
+  margin-bottom: 15px;
+}
+
+.teble {
+  width: 100%;
+}
+
+.teble td{
+  padding-bottom: 8px;
+}
+
+.teble td:nth-child(2), .teble td:nth-child(3) {
+  color: brown;
+}
+
+/* .teble tr:nth-child(odd) {
+  background: darkolivegreen;
+} */
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact {
+  text-align: center; 
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+
+
+.form-group input,
+.form-group textarea {
+  width:  100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid rgb(196, 209, 9);
+  color: black;
+  padding-inline-end: 10px 0 15px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.row  {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0px;
+}
+
+.tup {
+  color: rgb(255, 7, 7);
+  padding: 20px 30px;
+  color: rgb(0, 0, 0);
+  border:  none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.tup {
+  opacity: 0.9;
+}
+
+/* Position */
+
+/* .position {
+   position: relative;
+   border: 5px solid black;
+   margin-top: 50px;
+   padding:  25px;
+   height: 300px;
+}
+
+/* .box {
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+  border-radius: 50%;
+  /* top: 40px;
+  left: 80px;
+  width: 40px;
+  height: 40px;
+  background: lightslategray;
+} */
